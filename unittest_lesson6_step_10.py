@@ -30,7 +30,7 @@ class TestReg(unittest.TestCase):
 
         self.assertEqual(
             welcome_text,
-            "Conlations! You gratuhave successfully registered!",
+            "Congratulations! You have successfully registered!",
             f"expected Congratulations! You have successfully registered!, got {welcome_text}",
         )
 
