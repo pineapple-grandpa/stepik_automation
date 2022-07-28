@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a23d8e68-b9f2-4c94-a973-1d88b4cbac63" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest_lesson6_step_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_lesson6_step_10.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +151,9 @@
       <updated>1638960091503</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
