@@ -2,3 +2,4 @@
 environments/
 venv/
 .pytest_cache/
+.idea/
