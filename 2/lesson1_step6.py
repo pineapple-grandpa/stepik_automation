@@ -17,7 +17,7 @@ try:
     robots_radio = browser.find_element(By.ID, "robotsRule")
     robots_checked = robots_radio.get_attribute("checked")
     assert robots_checked is None
-    
+
 finally:
     time.sleep(10)
     browser.quit()

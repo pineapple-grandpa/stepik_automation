@@ -4,7 +4,7 @@ import time
 import os
 
 current_dir = os.path.abspath(os.path.dirname(__file__))
-file_path = os.path.join(current_dir, 'test.txt')
+file_path = os.path.join(current_dir, "test.txt")
 
 try:
     link = "http://suninjuly.github.io/file_input.html"

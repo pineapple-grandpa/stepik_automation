@@ -9,11 +9,11 @@ try:
     browser = webdriver.Chrome()
     browser.get(link)
 
-    eq = str(math.ceil(math.pow(math.pi, math.e)*10000))
+    eq = str(math.ceil(math.pow(math.pi, math.e) * 10000))
 
     link1 = browser.find_element(By.LINK_TEXT, eq)
     link1.click()
-    
+
     input1 = browser.find_element(By.TAG_NAME, "input")
     input1.send_keys("Ivan")
     input2 = browser.find_element(By.NAME, "last_name")

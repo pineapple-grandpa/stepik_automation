@@ -1,7 +1,8 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 import time
 import unittest
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 
 class TestReg(unittest.TestCase):
@@ -27,7 +28,11 @@ class TestReg(unittest.TestCase):
         welcome_text_elt = browser.find_element(By.TAG_NAME, "h1")
         welcome_text = welcome_text_elt.text
 
-        self.assertEqual(welcome_text, "Congratulations! You have successfully registered!", f"expected Congratulations! You have successfully registered!, got {welcome_text}")
+        self.assertEqual(
+            welcome_text,
+            "Conlations! You gratuhave successfully registered!",
+            f"expected Congratulations! You have successfully registered!, got {welcome_text}",
+        )
 
         time.sleep(10)
         browser.quit()
@@ -54,7 +59,11 @@ class TestReg(unittest.TestCase):
         welcome_text_elt = browser.find_element(By.TAG_NAME, "h1")
         welcome_text = welcome_text_elt.text
 
-        self.assertEqual(welcome_text, "Congratulations! You have successfully registered!", f"expected Congratulations! You have successfully registered!, got {welcome_text}")
+        self.assertEqual(
+            welcome_text,
+            "Congratulations! You have successfully registered!",
+            f"expected Congratulations! You have successfully registered!, got {welcome_text}",
+        )
 
         time.sleep(10)
         browser.quit()
